@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait chinois</title>
+    <link rel="icon" type="image/png" href="img/1x/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <!--<data src="data.json"></data>-->
+</head>
+
+<body>
+    <section>
+        <div class="presentation">
+            <h1> Noam Sebahoun </h1>
+            <h2> Mon portrait chinois</h2>
+            <h3 class='portraitExplique'>"Un portrait chinois est un jeu littéraire de type questionnaire de Proust où il s'agit de déceler, à travers un questionnaire, certains aspects de la personnalité d'un individu ou d'identifier ses goûts ou ses préférences personnelles." Wikipédia</h3>
+
+        </div>
+    </section>
+    <section>
+        <div class="liste-analogies"></div>
+        <img src="img/R_arrow.png" class="Rarrow">
+        <img src="img/L_arrow.png" class="Larrow">
+
+        <div class="formulaire">
+            <div class="newAnalogie">
+                <h3>Si j'étais <span id="analogieSuggeree"></span>, je serais <span id="valeurAnalogieSuggeree"></span>
+                </h3>
+                <h4><span id="explainAnalogieSuggeree"></span></h4>
+                <img class="imageAnalogieSuggeree"></img>
+            </div>
+            <form>
+                <h2>A toi de t'exprimer !</h2>
+                <label for="analogie">Si j'étais :</label>
+                <br>
+                <input type="text" id="analogie" name="analogie">
+                <br>
+                <label for="valeurAnalogie"> Je serais :</label>
+                <br>
+                <input type="text" id="valeurAnalogie" name="valeurAnalogie">
+                <br>
+                <label for="explainAnalogie"> Explications :</label>
+                <br>
+                <input type="text" id="explainAnalogie" name="explainAnalogie"></label>
+                <br>
+                <label for="imageAnalogie"> URL de l'image :</label>
+                <br>
+                <input type="text" id="imageAnalogie" name="imageAnalogie"></label>
+                <br>
+                <label for="Envoyer"></label>
+                <input type="button" id="send" value="Envoyer">
+                <p class="pform"> Attention: Toutes informations saisie dans ce formulaire ainsi que les données
+                    récoltées
+                    par celui-ci seront envoyer à Philippe Gambette.</p>
+            </form>
+        </div>
+
+    </section>
+    <footer>
+        <div id="toggleMentions">
+            <p class="links"><span class="linkHome">Accueil</span>
+            <span class="linkForm">Formulaire</span>
+            <span class="link">Mentions Légales</span></p>
+            
+
+            <div class="mentions">
+                <p>ÉDITEUR
+                    <br>Directeur de la publication, Conception et du Développement : Noam SEBAHOUN, étudiant à
+                    l’Université Gustave Eiffel
+                    <br>Hébergeur : Université Gustave Eiffel
+                    <br>Université Gustave Eiffel : 5 boulevard Descartes - Champs-sur-Marne - 77454 Marne-la-Vallée
+                    Cedex2 - Tél
+                    : 33(1).60.95.75.00 - Fax : 33(1).60.95.75.75
+                    <br>Le formulaire permettant la création d’une analogie personnalisée recueille votre adresse de
+                    courriel, ainsi que 
+                    votre adresse IP.
+                    <br>Les données collectées seront communiquées au seul destinataire: Philippe GAMBETTE
+                    (philippe.gambette@univ-eiffel.fr), enseignant à l'université Gustave Eiffel.
+                    <br>Les fichiers détenus par l'Université Gustave Eiffel qui comportent des données à caractère
+                    personnel ne seront pas
+                    transmises à des tiers et ne feront pas l'objet d'une commercialisation.
+                    <br>Toutes données collectées seront effacées durant l'été qui suivra la publication de ce site web
+                    (janvier 2022).
+                    <br>©2022 Tous droits réservés Noam SEBAHOUN.
+                </p>
+            </div>
+    </footer>
+</body>
+
+</html>
