@@ -3,7 +3,7 @@ var tortuga =[
     {
         "analogie":"un animal",
         "valeurAnalogie":"un Phoenix",
-        "explainAnalogie":"En effet, le phoenix est connu pour renaître de ses cendres. Cette image me correspond car à mes yeux, malgré les difficultés et les échecs, je parviens très souvent à trouver un point d'appuie pour de me relever.",
+        "explainAnalogie":"En effet, le phoenix est connu pour renaître de ses cendres. Cette image me correspond car à mes yeux, malgré les difficultés et les échecs, je parviens très souvent à trouver un point d'appuie pour me relever.",
         "creditImage":"",
         "image":"src='img/phoenix.png'"
     },
